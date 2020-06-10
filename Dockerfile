@@ -11,7 +11,6 @@ RUN apk add --update bash
 RUN apk add --update nodejs nodejs-npm
 
 #RUN ln -s /usr/bin/nodejs /usr/bin/node
-
 RUN npm install -g http-server
 
 ADD . /usr/apps/hello-docker/
